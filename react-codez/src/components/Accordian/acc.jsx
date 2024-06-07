@@ -37,45 +37,47 @@ export default function Accordian() {
     console.log(selected, multiple);
 
     return <div className="wrapper">
+        <center>
         <h1>Accordian</h1>
         <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>Enable Multi-Selection</button>
-        <div className="accordian">
-            {
-                Data && Data.length > 0 ?
-                    Data.map(dataItem => <div className="item">
-                        <div onClick={enableMultiSelection ?
-                            () => handleMultipleSelection(dataItem.id)
-                            : () => handleSingleSelection(dataItem.id)}
-                            className="title">
-                            <h3>{dataItem.question}</h3>
-                            <span>+</span>
-                        </div>
-                        {/* 1st Way to display */}
-                        {
-                            enableMultiSelection ?
-                                multiple.indexOf(dataItem.id) !== -1 &&
-                                (
-                                    <div className="content">{dataItem.answer}</div>
-                                )
-                                : selected === dataItem.id &&
-                                (
-                                    <div className="content">{dataItem.answer}</div>
-                                )
-                        }
+            <div className="accordian">
+                {
+                    Data && Data.length > 0 ?
+                        Data.map(dataItem => <div className="item">
+                            <div onClick={enableMultiSelection ?
+                                () => handleMultipleSelection(dataItem.id)
+                                : () => handleSingleSelection(dataItem.id)}
+                                className="title">
+                                <h3>{dataItem.question}</h3>
+                                <span>+</span>
+                            </div>
+                            {/* 1st Way to display */}
+                            {
+                                enableMultiSelection ?
+                                    multiple.indexOf(dataItem.id) !== -1 &&
+                                    (
+                                        <div className="content">{dataItem.answer}</div>
+                                    )
+                                    : selected === dataItem.id &&
+                                    (
+                                        <div className="content">{dataItem.answer}</div>
+                                    )
+                            }
 
-                        {/* 2nd Way to display */}
-                        {/* 
+                            {/* 2nd Way to display */}
+                            {/* 
                             { selected === dataItem.id || multiple.indexOf(dataItem.id) !== -1 ?
                                 (
                                     <div className="content">{dataItem.answer}</div>
                                 ) : null
                             } 
                         */}
-                    </div>)
-                    : (
-                        <div>No Data Found</div>
-                    )
-            }
-        </div>
+                        </div>)
+                        : (
+                            <div>No Data Found</div>
+                        )
+                }
+            </div>
+        </center>
     </div>
 }
