@@ -10,6 +10,8 @@ function App() {
       <Accordian />
 
       <RandomColor />
+
+      starRating
     </div>
   );
 }

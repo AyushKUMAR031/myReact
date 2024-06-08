@@ -33,6 +33,7 @@ export default function RandomColor() {
     useEffect(()=>{
         typeOfColor === 'rgb' ? handleRandomRgbColor() : handleRandomHexColor()
     },[typeOfColor])
+    
     return (
         <div style={{
             height: "100vh",
