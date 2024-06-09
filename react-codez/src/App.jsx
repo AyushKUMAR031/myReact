@@ -8,16 +8,16 @@ import StarRating from './components/star-rating/star';
 function App() {
   return (
     <div className="App">
-      
+
       {/*component of accordian*/}
       <Accordian />
-        
+
       {/*component of random color*/}
       <RandomColor />
 
       {/*component of star rating*/}
       <StarRating />
-      
+
     </div>
   );
 }

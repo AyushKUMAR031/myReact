@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Data from "./data";
-import './acc.css';
+import styles from './acc.module.css';
 
 //single selection 
 export default function Accordian() {
@@ -36,18 +36,17 @@ export default function Accordian() {
 
     console.log(selected, multiple);
 
-    return <div className="wrapper">
-        <center>
-        <h1>Accordian</h1>
-        <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>Enable Multi-Selection</button>
-            <div className="accordian">
+    return <div className={styles.wrapper}>
+            <h1>Accordian</h1>
+            <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>Enable Multi-Selection</button>
+            <div className={styles.accordian}>
                 {
                     Data && Data.length > 0 ?
-                        Data.map(dataItem => <div className="item">
+                        Data.map(dataItem => <div className={styles.item}>
                             <div onClick={enableMultiSelection ?
                                 () => handleMultipleSelection(dataItem.id)
                                 : () => handleSingleSelection(dataItem.id)}
-                                className="title">
+                                className={styles.title}>
                                 <h3>{dataItem.question}</h3>
                                 <span>+</span>
                             </div>
@@ -56,28 +55,27 @@ export default function Accordian() {
                                 enableMultiSelection ?
                                     multiple.indexOf(dataItem.id) !== -1 &&
                                     (
-                                        <div className="content">{dataItem.answer}</div>
+                                        <div className={styles.content}>{dataItem.answer}</div>
                                     )
                                     : selected === dataItem.id &&
                                     (
-                                        <div className="content">{dataItem.answer}</div>
+                                        <div className={styles.content}>{dataItem.answer}</div>
                                     )
                             }
 
                             {/* 2nd Way to display */}
                             {/* 
-                            { selected === dataItem.id || multiple.indexOf(dataItem.id) !== -1 ?
-                                (
-                                    <div className="content">{dataItem.answer}</div>
-                                ) : null
-                            } 
-                        */}
+                                { selected === dataItem.id || multiple.indexOf(dataItem.id) !== -1 ?
+                                    (
+                                        <div className={styles.content}>{dataItem.answer}</div>
+                                    ) : null
+                                } 
+                            */}
                         </div>)
                         : (
                             <div>No Data Found</div>
                         )
                 }
             </div>
-        </center>
     </div>
 }
