@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    padding-left: 25%;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+.currentImage {
+    border-radius: 0.5rem;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 7px #8b8585;
+}
+
+.arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: whitesmoke;
+    filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrowLeft {
+    left: 31rem;
+}
+
+.arrowRight {
+    right: 1rem;
+}
+
+.circleIndicators {
+    position: absolute;
+    bottom: 1rem;
+}
+
+.currentIndicators {
+    background-color: whitesmoke;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.hideCurrentImage {
+    display: none;
+}
+
+.updateCurrentIndicator {
+    background-color: rgb(139, 138, 138);
+}
+
+h1 {
+    line-height: 1.1;
+    font-size: 3.2rem;
+    text-align: center;
+}

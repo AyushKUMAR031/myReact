@@ -1,0 +1,19 @@
+- **Purpose**: `useEffect` is used to perform side effects in functional components.
+- **Common Uses**: Data fetching, subscriptions, manual DOM manipulations, logging.
+- **Syntax**: `useEffect(() => { /* effect */ }, [dependencies]);`
+- **Dependencies Array**: 
+  - **Empty Array `[]`**: Runs effect only once after initial render.
+  - **No Array**: Runs effect after every render.
+  - **Specific Dependencies**: Runs effect only when specified dependencies change.
+- **Cleanup Function**: 
+  - Return a function in `useEffect` to clean up effects (e.g., unsubscribing, clearing timers).
+  - Example: `useEffect(() => { /* setup */ return () => { /* cleanup */ } }, [dependencies]);`
+- **Multiple `useEffect`**: You can use multiple `useEffect` hooks for different side effects within a component.
+
+- **Calling useState**
+  - You call useEffect within a functional component to perform side effects.
+- **Arguments:** 
+  - It takes two arguments:
+    - A function (the effect) that contains the side-effect logic.
+    - An optional array of dependencies that determines when the effect should re-run.
+- **Return Value:** It does not return anything (its return type is void).
