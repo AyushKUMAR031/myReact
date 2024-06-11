@@ -42,7 +42,7 @@ export default function Accordian() {
             <div className={styles.accordian}>
                 {
                     Data && Data.length > 0 ?
-                        Data.map(dataItem => <div className={styles.item}>
+                        Data.map(dataItem => <div className={styles.item} key={dataItem.id}>
                             <div onClick={enableMultiSelection ?
                                 () => handleMultipleSelection(dataItem.id)
                                 : () => handleSingleSelection(dataItem.id)}
