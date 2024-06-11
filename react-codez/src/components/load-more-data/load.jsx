@@ -3,8 +3,8 @@ import StyleSheet from "./style.module.css";
 
 export default function LoadMoreData({
     url = "https://dummyjson.com/products",
-    limit = 12,
-    total = 200, }) {
+    limit = 20,
+    total = 140, }) {
 
     const [loading, setLoading] = useState(false);
     const [products, setProducts] = useState([]);
