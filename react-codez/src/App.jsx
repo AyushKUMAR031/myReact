@@ -6,6 +6,8 @@ import RandomColor from './components/random-color/color';
 import StarRating from './components/star-rating/star';
 import ImageSlider from './components/imageSlider/slider';
 import LoadMoreData from './components/load-more-data/load';
+import TreeNavMenu from './components/TreeViewNavMenu/NavMenu';
+import menus from './components/TreeViewNavMenu/menuData';
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
       {/*component of loading products*/}
       <LoadMoreData />
 
+      {/*Navigation Menu component*/}
+      <TreeNavMenu Menus={menus} />
+      
     </div>
   );
 }

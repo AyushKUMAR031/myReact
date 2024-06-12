@@ -1,0 +1,26 @@
+.mainContainer {
+    min-height: 85vh;
+    width: 350px;
+    background-color: #547eda;
+    color: yellow;
+}
+
+.ItemContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.ListContainer {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    color: yellowgreen;
+    margin-top: 50px;
+    padding: 0px;
+
+}
