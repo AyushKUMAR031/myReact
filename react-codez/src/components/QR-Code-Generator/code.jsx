@@ -13,7 +13,7 @@ export default function QRCodeGen() {
     }
 
     return (
-        <div >
+        <div className={sheet.design}>
             <h1>QR Code Generator</h1>
             <center className={sheet.qrcontainer}>
                 <div>
