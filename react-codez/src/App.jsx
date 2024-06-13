@@ -10,25 +10,26 @@ import TreeNavMenu from './components/TreeViewNavMenu/NavMenu';
 import menus from './components/TreeViewNavMenu/menuData';
 import QRCodeGen from './components/QR-Code-Generator/code';
 import LightDarkMode from './components/Theme/mode';
+import ScrollBarIndicator from './components/Scroll-Bar-Indicator/scroll';
 
 function App() {
   return (
     <div className="App">
 
       {/*component of accordian*/}
-      {/* <Accordian /> */}
+      <Accordian />
 
       {/*component of random color*/}
-      {/* <RandomColor /> */}
+      <RandomColor />
 
       {/*component of star rating*/}
-      {/* <StarRating /> */}
+      <StarRating />
 
       {/*component of Image Slider*/}
-      {/* <ImageSlider url={"https://picsum.photos/v2/list"} page={2} limit={10} /> */}
+      <ImageSlider url={"https://picsum.photos/v2/list"} page={2} limit={10} />
 
       {/*component of loading products*/}
-      {/* <LoadMoreData /> */}
+      <LoadMoreData />
 
       {/*Navigation Menu component*/}
       <TreeNavMenu Menus={menus} />
@@ -38,6 +39,9 @@ function App() {
 
       {/*Light Dark Theme */}
       <LightDarkMode/>
+
+      {/*Scroll bar*/}
+      <ScrollBarIndicator url={'https://dummyjson.com/products?limit=100'}/>
     </div>
   );
 }
