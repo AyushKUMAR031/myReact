@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
 import Accordian from './components/accordian/acc';
 import RandomColor from './components/random-color/color';
 import StarRating from './components/star-rating/star';
