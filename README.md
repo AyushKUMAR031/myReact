@@ -11,7 +11,7 @@
     - [RecursiveNavigationMenu](https://github.com/AyushKUMAR031/myReact/tree/main/react-codez/src/components/TreeViewNavMenu) &rarr; Recursively showing the UI Components on Toggle.
     - [QR-Code Generator](https://github.com/AyushKUMAR031/myReact/tree/main/react-codez/src/components/QR-Code-Generator) &rarr; with Third-Party Library package `react-qr-code`.
     - [DarkTheme](https://github.com/AyushKUMAR031/myReact/tree/main/react-codez/src/components/Theme) &rarr; Light :arrow_right: Dark :arrow_right: Light `Mode` using `Custom Hooks`.
-    - [ScollBar](https://github.com/AyushKUMAR031/myReact/tree/main/react-codez/src/components/Scroll-Bar-Indicator)
+    - [ScrollBar](https://github.com/AyushKUMAR031/myReact/tree/main/react-codez/src/components/Scroll-Bar-Indicator) &rarr; Custom Scroll Bar Indicator.
 ---
 - Here is the Link to my Notes  &rarr;
   [React-notes](https://cumbersome-accordion-690.notion.site/ReactJs-a23d4ddf5b804ed58b1e51f0d5306533?pvs=4)
