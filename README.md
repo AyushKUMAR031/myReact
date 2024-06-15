@@ -10,7 +10,7 @@
     - [LoadMoreData](./react-codez/src/components/load-more-data) &rarr; A component which fetch api and load dummy Products.
     - [RecursiveNavigationMenu](./react-codez/src/components/TreeViewNavMenu) &rarr; Recursively showing the UI Components on Toggle.
     - [QR-Code Generator](./react-codez/src/components/QR-Code-Generator) &rarr; with Third-Party Library package `react-qr-code`.
-    - [DarkTheme](./react-codez/src/components/Theme) &rarr;  `Mode`Switcher using `Custom Hooks`.
+    - [DarkTheme](./react-codez/src/components/ThemeSwitcher) &rarr;  `Mode`Switcher using `Custom Hooks`.
     - [ScrollBar](./react-codez/src/components/Scroll-Bar-Indicator) &rarr; Custom Scroll Bar Indicator.
 ---
 - React Concepts :
