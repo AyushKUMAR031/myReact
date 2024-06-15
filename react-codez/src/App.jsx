@@ -6,7 +6,7 @@ import LoadMoreData from './components/load-more-data/load';
 import TreeNavMenu from './components/TreeViewNavMenu/NavMenu';
 import menus from './components/TreeViewNavMenu/menuData';
 import QRCodeGen from './components/QR-Code-Generator/code';
-import LightDarkMode from './components/Theme/mode';
+import LightDarkMode from './components/ThemeSwitcher/mode';
 import ScrollBarIndicator from './components/Scroll-Bar-Indicator/scroll';
 import Counter from './concept/code/Counter(Hooks)/TheNeedOfHooks';
 
@@ -36,7 +36,7 @@ function App() {
       {/* <QRCodeGen /> */}
 
       {/*Light Dark Theme */}
-      {/* <LightDarkMode/> */}
+      <LightDarkMode/>
 
       {/*Scroll bar*/}
       {/* <ScrollBarIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
