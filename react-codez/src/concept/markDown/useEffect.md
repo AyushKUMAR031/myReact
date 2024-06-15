@@ -10,7 +10,7 @@
   - Example: `useEffect(() => { /* setup */ return () => { /* cleanup */ } }, [dependencies]);`
 - **Multiple `useEffect`**: You can use multiple `useEffect` hooks for different side effects within a component.
 
-- **Calling useState**
+- **Calling useEffect**
   - You call useEffect within a functional component to perform side effects.
 - **Arguments:** 
   - It takes two arguments:
