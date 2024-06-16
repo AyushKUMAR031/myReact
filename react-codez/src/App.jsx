@@ -9,6 +9,7 @@ import QRCodeGen from './components/QR-Code-Generator/code';
 import LightDarkMode from './components/ThemeSwitcher/mode';
 import ScrollBarIndicator from './components/Scroll-Bar-Indicator/scroll';
 import Counter from './concept/code/Counter(Hooks)/TheNeedOfHooks';
+import UseState from './concept/code/Hook/Built-In-Hook/1-useState';
 
 function App() {
   return (
@@ -36,13 +37,14 @@ function App() {
       {/* <QRCodeGen /> */}
 
       {/*Light Dark Theme */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
 
       {/*Scroll bar*/}
       {/* <ScrollBarIndicator url={'https://dummyjson.com/products?limit=100'}/> */}
 
-      <Counter />
-      
+      {/* <Counter /> */}
+      <UseState />
+
     </div>
   );
 }
