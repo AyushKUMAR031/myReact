@@ -1,3 +1,50 @@
-.main{
-    align-items: center;
+.mainWrapper {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.heading {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab:hover {
+    border-radius: 5%;
+    background-color: #b67a7a;
+    font-size: bold;
+}
+
+.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+
+}
+
+.content {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.tabContent {
+    text-align: center;
+}
+
+.tabContent img {
+    max-width: 50vh;
+    max-height: 70vh;
+    transition: transform 0.5s;
+}
+
+.tabContent img:hover{
+    transform: scale(1.5);
+}
+
+h1{
+    font-family: monospace;
 }
