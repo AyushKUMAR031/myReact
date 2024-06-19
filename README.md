@@ -1,6 +1,6 @@
 ## My React Practice Code
-- In this repo I am adding reusable components or elements.
-- Adding some small projects I had practised.
+- In this repo I am adding reusable components.
+- Some mini projects I had practised.
 ---
 - The Components I have added :
     - [Accordian](./react-codez/src/components/Accordian)
