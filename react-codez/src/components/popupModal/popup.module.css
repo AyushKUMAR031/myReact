@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     position: fixed;
     z-index: 1;
     right: 0;
@@ -7,19 +7,24 @@
 
 .model {
     position: fixed;
-    z-index: 1000; /* Ensure modal is on top of everything else */
+    z-index: 1000;
+    /* Ensure modal is on top of everything else */
     left: 30vw;
     top: 25vh;
     width: 40%;
     height: 60%;
     overflow: hidden;
-    background-color: rgba(71, 70, 70, 0.1); /* Semi-transparent black overlay */
-    backdrop-filter: blur(5px); /* Blur effect for the background */
+    background-color: rgba(71, 70, 70, 0.1);
+    /* Semi-transparent black overlay */
+    backdrop-filter: blur(5px);
+    /* Blur effect for the background */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    animation-name: animateModel;
+    animation-duration: 0.5s;
 }
 
 .content {
@@ -33,7 +38,7 @@
     max-width: 600px;
 }
 
-.header{
+.header {
     background-color: #5cb85c;
     color: white;
     padding: 12px 16px;
@@ -50,7 +55,7 @@
     padding: 20px 0;
     height: 150px;
     background-color: rgb(215, 228, 240);
-    
+
 }
 
 .footer {
@@ -63,7 +68,7 @@
 }
 
 
-.closeIcon{
+.closeIcon {
     background-color: #5cb85c;
     margin-top: 12px;
     padding: 8px 16px;
@@ -79,11 +84,11 @@
 
 .closeIcon:hover {
     transform: scale(1.2);
-    border:2px solid rgb(104, 158, 228);
+    border: 2px solid rgb(104, 158, 228);
 
 }
 
-.btn{
+.btn {
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(70, 68, 68));
     padding: 8px 16px;
     color: white;
@@ -93,11 +98,11 @@
     transition: transform 0.3s;
 }
 
-
-
-.btn{
-    writing-mode: vertical-rl; /* vertical writing mode */
-    text-orientation: upright; /* ensure text is upright */
+.btn {
+    writing-mode: vertical-rl;
+    /* vertical writing mode */
+    text-orientation: upright;
+    /* ensure text is upright */
     white-space: nowrap;
 }
 
@@ -106,4 +111,15 @@
     background: rgb(94, 202, 202);
     color: black;
     transform: scale(1.1);
+}
+
+
+@keyframes animateModel {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
