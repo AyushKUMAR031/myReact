@@ -21,6 +21,8 @@
         - &rarr; Custom Scroll Bar Indicator.
     - [TabSwitcher](./react-codez/src/components/CustomTabs)
         - &rarr; Custom Tab Switcher.
+    - [Pop-Up Model](./react-codez/src/components/popupModal)
+        - &rarr; a PopUp Model with Custom data Entries 
 ---
 - React Concepts :
     - [React Working (customReact)](/react-codez/src/concept/customReact) &rarr; how react works fundamentally.
