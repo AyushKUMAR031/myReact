@@ -1,0 +1,109 @@
+.wrapper{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 20vw;
+}
+
+.model {
+    position: fixed;
+    z-index: 1000; /* Ensure modal is on top of everything else */
+    left: 30vw;
+    top: 25vh;
+    width: 40%;
+    height: 60%;
+    overflow: hidden;
+    background-color: rgba(71, 70, 70, 0.1); /* Semi-transparent black overlay */
+    backdrop-filter: blur(5px); /* Blur effect for the background */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.content {
+    position: relative;
+    background-color: #c2bcbc;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(216, 218, 215, 0.5);
+    width: 80%;
+    max-width: 600px;
+}
+
+.header{
+    background-color: #5cb85c;
+    color: white;
+    padding: 12px 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.body {
+    padding: 20px 0;
+    height: 150px;
+    background-color: rgb(215, 228, 240);
+    
+}
+
+.footer {
+    background-color: #5cb85c;
+    color: white;
+    padding: 12px 16px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: right;
+}
+
+
+.closeIcon{
+    background-color: #5cb85c;
+    margin-top: 12px;
+    padding: 8px 16px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(to right, rgb(19, 18, 18), rgb(32, 31, 31));
+    transition: transform 0.5s;
+}
+
+.closeIcon:hover {
+    transform: scale(1.2);
+    border:2px solid rgb(104, 158, 228);
+
+}
+
+.btn{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(70, 68, 68));
+    padding: 8px 16px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s;
+}
+
+
+
+.btn{
+    writing-mode: vertical-rl; /* vertical writing mode */
+    text-orientation: upright; /* ensure text is upright */
+    white-space: nowrap;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: rgb(94, 202, 202);
+    color: black;
+    transform: scale(1.1);
+}

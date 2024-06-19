@@ -11,6 +11,7 @@ import ScrollBarIndicator from './components/Scroll-Bar-Indicator/scroll';
 import Counter from './concept/code/Counter(Hooks)/TheNeedOfHooks';
 import UseState from './concept/code/Hook/Built-In-Hook/1-useState';
 import TabTest from './components/CustomTabs/tabTest';
+import PopupTest from './components/popupModal/popupTest';
 
 function App() {
   return (
@@ -47,7 +48,10 @@ function App() {
       {/* <UseState /> */}
 
       {/*Custom Tabs Component*/}
-      <TabTest/>
+      <TabTest />
+
+      {/*Custom PopUp Modal*/}
+      <PopupTest />
 
     </div>
   );
