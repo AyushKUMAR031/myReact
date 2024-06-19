@@ -22,7 +22,10 @@
     - [TabSwitcher](./react-codez/src/components/CustomTabs)
         - &rarr; Custom Tab Switcher.
     - [Pop-Up Model](./react-codez/src/components/popupModal)
-        - &rarr; a PopUp Model with Custom data Entries 
+        - &rarr; a PopUp Model with Custom data Entries.
+    - [GithubProfileFinder](./react-codez/src/components/GithubProfileFinder)
+        - &rarr; using Github Public `REST API` for fetching Profiles.
+        - [X] unAuthenticated User have `60` request per hr. 
 ---
 - React Concepts :
     - [React Working (customReact)](/react-codez/src/concept/customReact) &rarr; how react works fundamentally.
