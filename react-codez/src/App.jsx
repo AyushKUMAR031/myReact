@@ -13,6 +13,7 @@ import UseState from './concept/code/Hook/Built-In-Hook/1-useState';
 import TabTest from './components/CustomTabs/tabTest';
 import PopupTest from './components/popupModal/popupTest';
 import GithubProfileFinder from './components/GithubProfileFinder';
+import SearchOptimize from './components/SearchOptimization/search';
 
 function App() {
   return (
@@ -49,13 +50,16 @@ function App() {
       {/* <UseState /> */}
 
       {/*Custom Tabs Component*/}
-      {/* <TabTest /> */}
+      <TabTest />
 
       {/*Custom PopUp Modal*/}
       <PopupTest />
 
       {/*Github Profile Finder1*/}
-      <GithubProfileFinder />
+      {/* <GithubProfileFinder /> */}
+
+      {/*Search Optimization Component */}
+      <SearchOptimize />
 
     </div>
   );
