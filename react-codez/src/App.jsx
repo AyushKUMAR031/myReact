@@ -14,6 +14,7 @@ import TabTest from './components/CustomTabs/tabTest';
 import PopupTest from './components/popupModal/popupTest';
 import GithubProfileFinder from './components/GithubProfileFinder';
 import SearchOptimize from './components/SearchOptimization/search';
+import TicTacToe from './components/TicTacToe';
 
 function App() {
   return (
@@ -50,16 +51,19 @@ function App() {
       {/* <UseState /> */}
 
       {/*Custom Tabs Component*/}
-      <TabTest />
+      {/* <TabTest /> */}
 
       {/*Custom PopUp Modal*/}
-      <PopupTest />
+      {/* <PopupTest /> */}
 
       {/*Github Profile Finder1*/}
       {/* <GithubProfileFinder /> */}
 
       {/*Search Optimization Component */}
-      <SearchOptimize />
+      {/* <SearchOptimize /> */}
+
+      {/*Tic Tac Toe Game*/}
+      <TicTacToe />
 
     </div>
   );
