@@ -25,7 +25,11 @@
         - &rarr; a PopUp Model with Custom data Entries.
     - [GithubProfileFinder](./react-codez/src/components/GithubProfileFinder)
         - &rarr; using Github Public `REST API` for fetching Profiles.
-        - [X] unAuthenticated User have `60` request per hr. 
+        - [X] unAuthenticated User have `60` request per hr.
+    - [SearchOptimization](./react-codez/src/components/SearchOptimization)
+        - &rarr; Auto Search Completion.   
+    - [TicTacToe Game](./react-codez/src/components/TicTacToe)
+        - &rarr; Legendary Game 
 ---
 - React Concepts :
     - [React Working (customReact)](/react-codez/src/concept/customReact) &rarr; how react works fundamentally.
