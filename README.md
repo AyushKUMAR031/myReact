@@ -29,7 +29,9 @@
     - [SearchOptimization](./react-codez/src/components/SearchOptimization)
         - &rarr; Auto Search Completion.   
     - [TicTacToe Game](./react-codez/src/components/TicTacToe)
-        - &rarr; Legendary Game 
+        - &rarr; Legendary Game
+    - [Feature-Flag](./react-codez/src/components/FeatureFlag)
+        - &rarr; Helps to enable or disable features in a software application without deploying new code. 
 ---
 - React Concepts :
     - [React Working (customReact)](/react-codez/src/concept/customReact) &rarr; how react works fundamentally.
