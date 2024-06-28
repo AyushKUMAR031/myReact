@@ -3,6 +3,7 @@ import UseState from './concept/code/Hook/Built-In-Hook/1-useState';
 import FlagGlobalState from './components/FeatureFlag/context/context';
 import FeatureFlags from './components/FeatureFlag';
 import UseFetchHookTest from './concept/code/Hook/Custom-Hook/useFetch/test';
+import UseOutsideClickTest from './concept/code/Hook/Custom-Hook/useOutsideClick/test';
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
       {/* <FlagGlobalState> <FeatureFlags /> </FlagGlobalState> */}
 
       {/* useFetch -> Custom Hook*/}
-      < UseFetchHookTest />
+      {/* < UseFetchHookTest /> */}
+
+      {/* useOutsideClick -> Custom Hook*/}
+      < UseOutsideClickTest />
 
 
     </div>
