@@ -4,6 +4,7 @@ import FlagGlobalState from './components/FeatureFlag/context/context';
 import FeatureFlags from './components/FeatureFlag';
 import UseFetchHookTest from './concept/code/Hook/Custom-Hook/useFetch/test';
 import UseOutsideClickTest from './concept/code/Hook/Custom-Hook/useOutsideClick/test';
+import UseResponsiveTest from './concept/code/Hook/Custom-Hook/useResponsive/test';
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
       {/* < UseFetchHookTest /> */}
 
       {/* useOutsideClick -> Custom Hook*/}
-      < UseOutsideClickTest />
+      {/* < UseOutsideClickTest /> */}
+
+      {/*useResponsive -> Custom Window Resize hook*/}
+      <UseResponsiveTest />
 
 
     </div>
