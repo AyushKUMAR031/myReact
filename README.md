@@ -30,7 +30,7 @@
         - &rarr; Auto Search Completion.   
     - [TicTacToe Game](./react-codez/src/components/TicTacToe)
         - &rarr; Legendary Game
-    - [Feature-Flag](./react-codez/src/components/FeatureFlag)
+    - [Feature-Flag](./react-codez/src/components/FeatureFlag) :star::star:
         - &rarr; Helps to enable or disable features in a software application without deploying new code. 
 ---
 - React Concepts :
