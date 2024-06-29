@@ -6,6 +6,7 @@ import UseFetchHookTest from './concept/code/Hook/Custom-Hook/useFetch/test';
 import UseOutsideClickTest from './concept/code/Hook/Custom-Hook/useOutsideClick/test';
 import UseResponsiveTest from './concept/code/Hook/Custom-Hook/useResponsive/test';
 import TopDownScroll from './components/TopDownScroll';
+import ParticularSectionScroll from './components/ParticularSectionScroll/Section';
 
 function App() {
   return (
@@ -28,8 +29,10 @@ function App() {
       {/* <UseResponsiveTest /> */}
 
       {/*TopDownScroll Feature*/}
-      <TopDownScroll />
+      {/* <TopDownScroll /> */}
 
+      {/*Particular Section Scroll*/}
+      <ParticularSectionScroll />
 
     </div>
   );
