@@ -57,7 +57,7 @@ export default function SearchOptimize() {
                     loading ? (<p style={{ color: "whiteSmoke", fontSize: "36px" }}>Loading...</p>)
                         : (
                             <input type="text" value={search} name="Search-User" placeholder="Search-User here..."
-                                onChange={handleChange} />
+                                onChange={handleChange} className={style.imp}/>
                         )}
                 {
                     showDropDown && <Suggestion handleClick={handleClick} data={filterSearch} />

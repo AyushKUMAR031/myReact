@@ -7,6 +7,7 @@ import UseOutsideClickTest from './concept/code/Hook/Custom-Hook/useOutsideClick
 import UseResponsiveTest from './concept/code/Hook/Custom-Hook/useResponsive/test';
 import TopDownScroll from './components/TopDownScroll';
 import ParticularSectionScroll from './components/ParticularSectionScroll/Section';
+import Weather from './LevelUp/WeatherApp/weather/weatther';
 
 function App() {
   return (
@@ -32,7 +33,10 @@ function App() {
       {/* <TopDownScroll /> */}
 
       {/*Particular Section Scroll*/}
-      <ParticularSectionScroll />
+      {/* <ParticularSectionScroll /> */}
+
+      {/*Weather App*/}
+      <Weather />
 
     </div>
   );
