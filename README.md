@@ -34,6 +34,8 @@
         - &rarr; Helps to enable or disable features in a software application without deploying new code.
     - [TopDownScroll](./react-codez/src/components/TopDownScroll) and [ScrollToSection](./react-codez/src/components/ParticularSectionScroll)
         - &rarr; Featured Scrolling in a WebPage.
+---
+- Mid-Level Components
     - [WeatherApp](./react-codez/src/LevelUp/WeatherApp) :star::star::star:
         - &rarr; Working With `weather API` and created my own Weather App.
 ---
