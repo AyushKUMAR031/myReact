@@ -1,0 +1,44 @@
+ .whole{
+        margin-top: 20px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(to right, rgb(7, 124, 202), rgb(70, 68, 68));
+        color: white;
+ }
+
+ .cent{
+    position: relative;
+    top: 20%;
+ }
+
+ .top {
+     position: fixed;
+     top: 15vh;
+     right: 0vw;
+ }
+
+ .bottom {
+     position: fixed;
+     top: 70vh;
+     right: 0vw;
+ }
+
+ .btns {
+     background: linear-gradient(to right, rgb(7, 124, 202), rgb(70, 68, 68));
+     writing-mode: vertical-rl;
+     text-orientation: upright;
+     white-space: nowrap;
+     cursor: pointer;
+     padding: 20px 2px;
+     transition: transform 0.2s;
+ }
+
+ .btns:hover {
+     transition: 1s ease-in-out;
+     background: rgb(216, 71, 139);
+     color: black;
+     transform: scale(1.1);
+ }
