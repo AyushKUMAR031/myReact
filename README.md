@@ -38,6 +38,8 @@
 - Mid-Level Components
     - [WeatherApp](./react-codez/src/LevelUp/WeatherApp) :star::star::star:
         - &rarr; Working With `weather API` and created my own Weather App.
+    - [FoodRecipe Web-app](./FoodRecipeApp) :star::star::star:
+        - &rarr; Routing withing the React `SPA` with `react-router-dom` and use `ForkifyAPI`, styled by ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ---
 - React Concepts :
     - [React Working (customReact)](/react-codez/src/concept/customReact) &rarr; how react works fundamentally.
