@@ -15,6 +15,8 @@ import PopupTest from "../popupModal/popupTest"
 import GithubProfileFinder from "../GithubProfileFinder"
 import SearchOptimize from "../SearchOptimization/search"
 import TicTacToe from "../TicTacToe"
+import TopDownScroll from "../TopDownScroll"
+import ParticularSectionScroll from "../ParticularSectionScroll/Section"
 
 
 export default function FeatureFlags() {
@@ -76,6 +78,14 @@ export default function FeatureFlags() {
         {
             key: 'showTicTacToe',
             component: <TicTacToe />
+        },
+        {
+            key: 'showTopDownScroll',
+            component: <TopDownScroll />
+        },
+        {
+            key: 'showSectionScroll',
+            component: <ParticularSectionScroll />
         }
     ]
 

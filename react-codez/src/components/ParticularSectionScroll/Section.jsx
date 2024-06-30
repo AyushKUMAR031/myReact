@@ -49,13 +49,13 @@ export default function ParticularSectionScroll() {
 
     function handleScrollToSection() {
         // We can also Use This.
-        // ref.current.scrollIntoView({ behavior: "smooth" });
+        ref.current.scrollIntoView({ behavior: "smooth" });
 
-        let pos = ref.current.getBoundingClientRect().top;
-        window.scrollTo({
-            top: pos,
-            behavior: "smooth",
-        });
+        // let pos = ref.current.getBoundingClientRect().top;
+        // window.scrollTo({
+        //     top: pos,
+        //     behavior: "smooth",
+        // });
     }
 
     return (
@@ -64,7 +64,7 @@ export default function ParticularSectionScroll() {
             <button onClick={handleScrollToSection}>Click To Scroll</button>
             {
                 data.map((dataItem, index) => (
-                    <div ref={index === 3 ? ref : null} style={dataItem.style}>
+                    <div ref={index === 2 ? ref : null} style={dataItem.style}>
                         <h3>{dataItem.label}</h3>
                     </div>
                 ))

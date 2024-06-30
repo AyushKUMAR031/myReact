@@ -13,7 +13,9 @@ const dummyAPIResponse = {
     showPopUpModal: true,
     showGithubProfileFinder: true,
     showSearchOptimization: true,
-    showTicTacToe: true
+    showTicTacToe: true,
+    showTopDownScroll: true,
+    showSectionScroll: true,
 }
 
 function DataCall() {

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --black: #171613;
   --white: #fcebcd;
@@ -6,7 +10,3 @@
   align-items: center;
   text-align: center;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
