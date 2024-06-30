@@ -1,4 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
+import NavBar from './FoodRecipeApp/NavBar/Nav';
+import Home from './FoodRecipeApp/Pages/HomePage/home.jsx';
+import Favourite from './FoodRecipeApp/Pages/favourite/fav.jsx';
+import Details from './FoodRecipeApp/Pages/details/detail.jsx';
 function App() {
   return (
     <div>
